@@ -1,19 +1,11 @@
 #!/usr/bin/env python
 
-age=12
-name="Matt"
+#age=12
+#name="Matt"
+#todayIsCold=True
 
-#print (" Hello my name is {}. I am {} years old".format(name,age))
-# cfsd;fasdkfjas;fksdf;kdsaf;ldskfl;k;
+def hello(name="Sean", age=0):
+    return "Hello {}. You are {} years old old".format(name,age)
 
-"""fdasfsadffsafadfasfdsafsadfa
-fdasfsadffsafadfasfdsafsadfa
-fdasfsadffsafadfasfdsafsadfafds
-fdasfsadffsafadfasfdsafsadfa"""
-
-if name == "Matt":
-    print("You are older than 18")
-    print("This is another line")
-    #fasdfsadfsdaf
-else:
-    print("You are younger than 18")
+sentence = hello("Matt", 20)
+print(sentence)
