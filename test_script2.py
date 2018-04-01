@@ -1,5 +1,14 @@
-dognames = ["Fido", "Sean", "Sally", "Mark" , 4234 , False, True, 4.2334]
+class Dog:
 
-dognames[1] = "JAne"
+    def __init__(self, name, age, furcolor):
+        self.name = name
+        self.age = age
+        self.furcolor=furcolor
 
-print(dognames)
+    def bark(self , str):
+        print("BARK! " + str )
+
+mydog = Dog("John", 20, "Brown")
+mydog.bark("Here is Food!")
+
+print(mydog.age)
